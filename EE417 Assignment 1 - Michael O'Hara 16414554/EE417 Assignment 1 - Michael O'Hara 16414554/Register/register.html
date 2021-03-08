@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<h1> Register for Website </h1>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../Style/style.css"/>
+		<p class="info">By Michael O'Hara - 16414554</p>
+	</head>
+	<body>
+		<div class="nav">
+	        <ul>
+	          	<li><a href="../index.html">Home</a></li>
+	            <li><a class = "active" href="#register">Register</a></li>
+	            <li><a href="../Login/login.html">Login</a></li>
+	            <li><a href="../Breakfast/breakfast.html">Breakfast</a></li>
+				<li><a href="../Lunch/lunch.html">Lunch</a></li>
+				<li><a href="../Dinner/dinner.html">Dinner</a></li>
+	            <div class = "navright">
+	            	<li><input type="text" placeholder="Search.."></li>
+	            </div>
+	        </ul>
+	    </div>
+
+		<div class = "regform">
+			<form>
+				<div class = "account">
+					<table>
+						<tr>
+							<td>
+								<h2> Account Details </h2>
+								<hr>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="fname">First Name</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">
+									<input type="text" id="fname"placeholder="First name" name="">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="lname">Last Name</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">
+									<input type="text" id="lname" placeholder="Last name" name="">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="email">Email Address</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">
+									<input type="text" id="email" placeholder="Email" name= "">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="password">Password</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">
+									<input type="text" id="password" placeholder="Password" name="">
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<br>
+				<br>
+
+				<div class = "personal">
+					<table>
+						<tr>
+							<td>
+								<h2> Personal Details </h2>
+								<hr>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for = "gender">Gender:</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">		
+									<input type="checkbox" name="Male" value="Male"> Male<br>
+		  							<input type="checkbox" name="Female" value="Female"> Female<br>
+		  						</div>
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<form action="/action_page.php">
+								<label for="birthday">Birthday:</label>
+								<input type="date" id="birthday" name="birthday">
+								
+								</form>
+							</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "Address 1">Address Line 1:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="Address 1" placeholder="Address 1" name="">
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "Address 2">Address Line 2:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="Address 2" placeholder="Address 2" name="">
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "Address 3">Address Line 3:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="Address 3" placeholder="Address 3" name="">
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "Town">Town:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="Town" placeholder="Town" name="">
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "County">County:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="County" placeholder="County" name="">
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td>
+		  						<label for = "Eircode">Eircode:</label>
+		  					</td>
+		  					<td>
+		  						<input type = "text" id="Eircode" placeholder="Eircode" name="">
+		  					</td>
+		  				</tr>
+		  			</table>
+
+	  			</div>
+	    		<input type="submit" value="Register Now">
+			</form>
+		</div>
+	</body>
+	<footer>
+	    <p>Copyright © 2021  Michael O'Hara EE417 Assignment 1 Part 1</p> 
+	</footer>
+</html>

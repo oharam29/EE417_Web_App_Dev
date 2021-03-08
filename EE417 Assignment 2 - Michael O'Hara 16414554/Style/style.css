@@ -1,0 +1,294 @@
+/* Nav Bar*/
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav li {
+    float: left;
+}
+.pages li a {
+    color: #86C323;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.nav #pages{
+  display: none;
+      padding: 16px 16px;
+
+}
+
+.nav ul a:hover{
+    color: grey;
+}
+
+
+.nav li input {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navright{
+	float:right;
+  padding :5px;
+
+}
+
+.form table {
+  font-family: Helvetica;
+  font-size : 100%;
+  font-weight: bold;
+}
+
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #6b6e70;
+  width: 100%;
+  z-index: 1;
+  padding: 14px 14px;
+
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.hamburger {
+  cursor: pointer;
+  padding: 5px 16px;
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.info {
+	font-size: 13px;
+	text-align: center;
+}
+
+.contain{
+	padding: 40px;
+	background-color: #222629;
+	color: white;
+	font-family: Garamond;
+	font-size: 17px;
+}
+
+.content{
+	font-family: Garamond;
+	font-size: 17px;
+}
+
+.ingredients {
+  padding: 40px;
+  line-height: 1.25;
+  background-color: #474b4f;
+  border-color: black;
+  border: 1px;
+}
+
+.intro_info{
+	background-color: #474b4f;
+	padding: 40px;
+
+}
+
+.steps {
+  padding: 40px;
+  line-height: 1.25;
+  border-color: black;
+  border: 1px;
+}
+
+.regform{
+	padding: 60px;
+	background-color: #222629;
+	color: white;
+}
+
+.personal {
+	padding: 40px;
+  line-height: 1.25;
+  background-color: #474b4f !important;
+  border-color: black;
+  border: 1px;
+}
+
+.account {
+  padding: 40px;
+  line-height: 1.25;
+  background-color: #474b4f !important;
+  border-color: black;
+  border: 1px;
+}
+
+.two {
+	padding: 40px;
+  line-height: 1.25;
+  background-color: #474b4f !important;
+  border-color: black;
+  border: 1px;
+}
+
+.one {
+  padding: 40px;
+  line-height: 1.25;
+  border-color: black;
+  border: 1px;
+  background-color: #6b6e70;
+}
+
+.ref {
+	color: red;
+}
+
+
+
+.hider{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:20%;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#response_display td, #response_display th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#response_display tr:nth-child(even){background-color: #f2f2f2;}
+
+#response_display tr:hover {background-color: #ddd;}
+
+#response_display th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+h2 {
+  color: #86c232;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:20%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+footer {
+  clear:left;
+  float: right;
+  background-color: lightgrey;
+  font-size: 0.75rem;
+  color:black;
+}
+
+.btn{
+    width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:20%;
+}
+
+
+.dom li:hover {background-color: #ddd;}
