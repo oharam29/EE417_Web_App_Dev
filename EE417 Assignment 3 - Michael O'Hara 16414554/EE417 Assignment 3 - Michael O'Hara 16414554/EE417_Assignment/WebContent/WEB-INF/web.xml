@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>EE417_Assignment</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>HiddenForm1</servlet-name>
+  	<servlet-class>HiddenForm1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HiddenForm1</servlet-name>
+  	<url-pattern>/HiddenForm1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>HiddenForm2</servlet-name>
+  	<servlet-class>HiddenForm2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HiddenForm2</servlet-name>
+  	<url-pattern>/HiddenForm2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>URLRewrite</servlet-name>
+  	<servlet-class>URLRewrite</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>URLRewrite</servlet-name>
+  	<url-pattern>/URLRewrite</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>GetCookies</servlet-name>
+  	<servlet-class>GetCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetCookies</servlet-name>
+  	<url-pattern>/GetCookies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>HTTP</servlet-name>
+  	<servlet-class>HTTP</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HTTP</servlet-name>
+  	<url-pattern>/HTTP</url-pattern>
+  </servlet-mapping>
+
+  
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>login.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

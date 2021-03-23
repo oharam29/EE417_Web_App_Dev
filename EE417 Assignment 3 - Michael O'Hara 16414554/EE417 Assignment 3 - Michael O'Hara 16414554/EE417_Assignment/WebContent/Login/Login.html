@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<h1> Login to Website </h1>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../Style/style.css"/>
+		<script src="../js/myScript.js"></script>
+		<p class="info">By Michael O'Hara - 16414554</p>
+	</head>
+	<body>
+		<nav class="nav">
+	        <ul>
+	        	<li>
+	        		<a><div class="hamburger" onclick="myFunction(this)">
+  						<div class="bar1"></div>
+  						<div class="bar2"></div>
+  						<div class="bar3"></div>
+					</div></a>
+				</li>
+				<div class="pages" id="pages">
+		          	<li><a href="../index.jsp">Home</a></li>
+	  				<div class="subnav">
+	    				<button class="subnavbtn">Account <i class="fa fa-caret-down"></i></button>
+	    				<div class="subnav-content">
+		            		<li><a class="active" href="#login">Login</a></li>
+		            		<li><a href="../Register/Register.jsp">Register</a></li>
+
+	    				</div>	
+  					</div>
+	  				<div class="subnav">
+	    				<button class="subnavbtn">Recipes <i class="fa fa-caret-down"></i></button>
+	    						<div class="subnav-content">
+			            			<li><a href="../Breakfast/Breakfast.jsp">Breakfast</a></li>
+									<li><a href="../Lunch/Lunch.jsp">Lunch</a></li>
+									<li><a href="../Dinner/Dinner.jsp">Dinner</a></li>	    				
+								</div>	
+  					</div>
+  					<li class = "admin"><a  href="../Admin/AdminPanel.html">Admin</a></li> 
+ 
+		            <div class = "navright">
+		            	<li><input type="text" placeholder="Search.."></li>
+		            </div>
+	        	</div>
+	        </ul>
+		</nav>
+	    <div class = "contain">
+		    <div class = "account">
+				<form name="loginform" onsubmit="return validateLogin()" method="post" action="/EE417_Assignment/LoginServlet">
+					<table>
+						<tr>
+							<td>
+								<h2> Login to website: </h2>
+								<hr>
+
+								<p>Please enter your email and password:</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="email">Email Address</label>
+								</div>
+							</td>
+							<td>
+								<div class = "col-input">
+									<input type="text" placeholder="Email" name= "email">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class = "col-label">
+									<label for="password">Password</label>
+								</div>
+							</td>
+							<td>
+								<div class="col-input">
+									<input type="text" placeholder="Password" name="password">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for = "rememberme"> Remember Me?</label>
+							</td>
+							<td>
+								<input type="checkbox" name="rememberme" value="Remember Me">Yes<br>
+							</td>
+						</tr>
+					</table>
+		    		<input type="submit" value="Login Now">
+
+				</form>
+			</div>
+		</div>
+	</body>
+	<footer>
+	    <p>Copyright © 2021  Michael O'Hara EE417 Assignment 1 Part 1</p> 
+	</footer>
+
+</html>
